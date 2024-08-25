@@ -1,0 +1,105 @@
+.App {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 650px;
+  margin: 60px auto;
+  padding: 25px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+  background-color: #fdfdfd;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.input-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.json-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-family: "Courier New", monospace;
+  font-size: 15px;
+  background-color: #f7f9fc;
+  margin-bottom: 15px;
+  transition: border-color 0.3s;
+}
+
+.json-input:focus {
+  border-color: #1e73be;
+  outline: none;
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.filter-container {
+  margin-top: 25px;
+}
+
+.filter-label {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.multi-select {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.multi-select label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+}
+
+.multi-select input {
+  margin-right: 8px;
+}
+
+.filtered-response {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f7f9fc;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.filtered-response p {
+  margin: 5px 0;
+  font-size: 15px;
+  color: #444;
+}
+
+.filtered-response strong {
+  color: #1e73be;
+}
